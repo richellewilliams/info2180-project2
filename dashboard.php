@@ -29,7 +29,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="newContact">
+                    <a href="newcontact">
                         <span class="ti-user"></span>
                         <span>New Contact</span>
                     </a>
