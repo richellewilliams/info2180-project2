@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>Listed Users Page</title>
     <link rel="stylesheet" href="loginPage.css">
-    <header>🐬 Dolphin CRM</header>
+    <header>&#x1F42C Dolphin CRM</header>
 </head>
 <body>
      <div class="container">   
