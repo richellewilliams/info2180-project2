@@ -45,7 +45,7 @@
        
     </head>
     <body>
-    <header>🐬 Dolphin CRM</header>
+    <header>&#x1F42C Dolphin CRM</header>
     <main>
     <h1 id = "login">Login</h1>
         <form action="login.php" method="post">
