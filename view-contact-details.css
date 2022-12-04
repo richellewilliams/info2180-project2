@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    grid-column: 1/3;
+    padding-left:50px;
+}
+
+header > p {
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+aside {
+    grid-column: 1;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 50px;
+}
+
+ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    grid-column: 2;
+}
+
+#current-contact {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.current-ctact {
+    grid-column: 1;
+}
+
+.assignment-buttons { 
+    grid-column: 2;
+}
+
+button {
+    background-color: #5046e6;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#assignButton {
+    display: inline;
+    background-color: #49de80;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#switchButton {
+    display: inline;
+    background-color: #fbbf24;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contact-details {
+    padding-bottom: 30px;
+}
+
+.contact-details {
+    border: #c9c5ca;
+    border-style: solid;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.email {
+    grid-column: 1;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.email-result {
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.company {
+    grid-column: 2;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.company-result {
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.telephone {
+    grid-column: 1;
+    padding-left: 30px;
+}
+
+.telephone-result {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.assigned-to {
+    grid-column: 2;
+    padding-left: 50px;
+}
+
+.assigned-to-result {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.notes-section {
+    border: #cac5c5;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.notes {
+    padding-left: 30px;
+}
+
+.created-notes {
+    padding-left: 25px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+}
+
+.created-at {
+    font-size: 14px;
+    color: #475569;
+}
+
+.updated-at {
+    font-size: 14px;
+    color: #475569;
+}
+
+#created-at-notes {
+    font-size: 14px;
+    color: #475569;
+    padding-bottom: 30px;
+}
+
+#notes-created-at {
+    font-size: 14px;
+    color: #475569;
+}
+
+.note-details {
+    background-color: #f3f4f6;
+    border-radius: 3px;
+}
+
+.note-msg {
+    display: flex;
+}
+
+.note-msg > p {
+    padding-right: 4px;
+    padding-left: 20px;
+}
+
+.note-for-user {
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+textarea {
+    width: 95%;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    resize: vertical;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 15px;   
+}
+
+#addNoteButton {
+    margin-left: 962px;
+    margin-top: 20px;
+}
