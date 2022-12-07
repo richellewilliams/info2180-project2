@@ -29,7 +29,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="newcontact">
+                    <a href="newcontact.php">
                         <span class="ti-user"></span>
                         <span>New Contact</span>
                     </a>
