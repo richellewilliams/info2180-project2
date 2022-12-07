@@ -60,7 +60,7 @@
         <main>
             <div class="dash-header">
                 <h2 class="dash-title">Dashboard</h2>
-                <a href="newContact.php"><button id="add-button"> + Add Contact</button>  
+                <a href="newcontact.php"><button id="add-button"> + Add Contact</button>  
             </div>
          
      
